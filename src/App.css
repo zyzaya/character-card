@@ -1,3 +1,23 @@
+@font-face {
+  font-family: Interstate-bold;
+  src: url(fonts/Interstate-bold.ttf);
+}
+
+@font-face {
+  font-family: Interstate-light;
+  src: url(fonts/Interstate-light.ttf);
+}
+
+@font-face {
+  font-family: Interstate-regular;
+  src: url(fonts/Interstate-regular.ttf);
+}
+
+* {
+  font-size: x-small;
+  font-family: Interstate-light;
+}
+
 .App {
   border: 1px solid black;
   width: 6in;

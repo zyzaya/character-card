@@ -1,0 +1,17 @@
+.spell_slots {
+  border: 1px solid black;
+  border-spacing: 0;
+}
+
+.spell_slots > tbody > :nth-child(odd){
+  background-color: lightgray;
+}
+
+.slot_max {
+  border-right: 1px solid black;
+}
+
+.slot_row {
+  padding: 0;
+  padding: 0;
+}
