@@ -23,3 +23,9 @@
   width: 6in;
   height: 4in;
 }
+
+.sheet {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+}
