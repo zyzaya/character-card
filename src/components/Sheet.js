@@ -1,4 +1,5 @@
 import React from 'react';
+import ChannelDivinity from './ChannelDivinity';
 import Defense from './Defense';
 import AttackSave from './Offense/AttackSave';
 import SpellSlots from './Offense/SpellSlots';
@@ -14,14 +15,11 @@ export default function Sheet(props) {
       <Weapons />
       <Reusable
         title={'Warding Flare'}
-        body={`When you are attacked by a creature within 30 feet of you that you can
-        see, you can use your reaction to impose disadvantage on the attack
-        roll, causing light to flare before the attacker before it hits or
+        body={`When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or
         misses. An attacker that can't be blinded is immune to this feature.
-        Starting at 6th level, you can also use your Warding Flare feature when
-        a creature that you can see within 30 feet of you attacks a creature
-        other than you.`}
+        Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.`}
       />
+      <ChannelDivinity />
     </div>
   );
 }

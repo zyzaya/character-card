@@ -3,7 +3,7 @@
 }
 
 .reusable_content {
-  font-size: xx-small;
+  font-size: 8px;
   padding: 2px 0 0 5px;
-  /* white-space: pre-line; */
+  white-space: pre-line;
 }
