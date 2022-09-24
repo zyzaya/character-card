@@ -1,0 +1,9 @@
+.reusable_title {
+  border-bottom: 1px solid black;
+}
+
+.reusable_content {
+  font-size: xx-small;
+  padding: 2px 0 0 5px;
+  /* white-space: pre-line; */
+}
