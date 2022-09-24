@@ -18,7 +18,7 @@ export default function SpellSlots(props) {
             <tr key={i} className="slot_row">
               <td className="slot_level">{i + 1}</td>
               <td className="slot_max">{s}</td>
-              <td className="slot_remaining">{s}</td>
+              <td className="slot_remaining"></td>
             </tr>
           );
         })}

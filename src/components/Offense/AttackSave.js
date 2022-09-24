@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/AttackSave.css';
 
 export default function AttackSave(props) {
   let to_hit = props.proficiency + props.spell_modifier;
