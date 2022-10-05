@@ -20,12 +20,12 @@
 
 .App {
   border: 1px solid black;
-  width: 6in;
-  height: 4in;
+  width: 8.5in;
+  height: 6in;
 }
 
 .sheet {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: stretch;
 }
