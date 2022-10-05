@@ -1,3 +1,10 @@
+.ability {
+  display: grid;
+  grid-template-columns: min-content min-content;
+  column-gap: 8px;
+  margin: 15px;
+}
+
 .ability_values {
   border: 3px double black;
   border-radius: 2px 10px;
@@ -6,7 +13,7 @@
   display: grid;
   grid-template-rows: min-content 1fr min-content;
   justify-items: center;
-  margin: 15px;
+  
 }
 
 .ability_score {
@@ -23,4 +30,8 @@
   font-weight: bold;
   font-size: 8px;
   text-align: center;
+}
+
+.skills {
+  padding-top: 6px;
 }

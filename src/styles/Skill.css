@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: min-content min-content 1fr;
   column-gap: 4px;
+  margin-bottom: 4px;
 }
 
 .save_proficient, .skill_proficient {
@@ -27,4 +28,5 @@
 
 .skill_name {
   font-size: 8px;
+  white-space: nowrap;
 }
