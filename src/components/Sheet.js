@@ -1,4 +1,5 @@
 import React from 'react';
+import Abilities from './Abilities/Abilities';
 import ChannelDivinity from './ChannelDivinity';
 import Defense from './Defense';
 import Healer from './Healer';
@@ -10,7 +11,9 @@ import Reusable from './Reusable';
 export default function Sheet(props) {
   return (
     <div className="sheet">
-      <div className="left">stats</div>
+      <div className="left">
+        <Abilities />
+      </div>
       <div className="middle">
         <AttackSave spell_modifier={4} proficiency={3} level={6} />
         <SpellSlots />

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Healer.css';
-// import '../styles/Reusable.css';
 
 export default function Healer(props) {
   return (
