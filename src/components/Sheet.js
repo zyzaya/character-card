@@ -1,6 +1,7 @@
 import React from 'react';
 import ChannelDivinity from './ChannelDivinity';
 import Defense from './Defense';
+import Healer from './Healer';
 import AttackSave from './Offense/AttackSave';
 import SpellSlots from './Offense/SpellSlots';
 import Weapons from './Offense/Weapons';
@@ -21,6 +22,7 @@ export default function Sheet(props) {
         misses. An attacker that can't be blinded is immune to this feature.
         Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you.`}
         />
+        <Healer />
       </div>
       <div className="right">
         <Defense />

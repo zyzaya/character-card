@@ -1,0 +1,15 @@
+.healer_body {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+}
+
+.healer_uses > div:nth-child(odd) {
+  background-color: lightgray;
+}
+
+.healer_uses > div {
+  font-size: 8px;
+  white-space: pre-line;
+  padding-right: 15px;
+  margin-left: 1px;
+}
