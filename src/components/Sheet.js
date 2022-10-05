@@ -17,7 +17,6 @@ export default function Sheet(props) {
       <div className="middle">
         <AttackSave spell_modifier={4} proficiency={3} level={6} />
         <SpellSlots />
-        <Weapons />
         <ChannelDivinity />
         <Reusable
           title={'Warding Flare'}
@@ -29,7 +28,7 @@ export default function Sheet(props) {
       </div>
       <div className="right">
         <Defense />
-
+        <Weapons />
         <Reusable
           title="Ball Bearings"
           body={`As an action, you can spill these tiny metal balls from their pouch to cover a level area 10 feet square. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn't need to make the saving throw.`}

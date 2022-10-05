@@ -5,3 +5,7 @@
 .channel_divinity_body {
   padding: 2px 0 0 5px;
 }
+
+.channel_divinity_body > div {
+  border-left: 1px solid gray;
+}

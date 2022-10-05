@@ -22,10 +22,25 @@
   border: 1px solid black;
   width: 8.5in;
   height: 6in;
+  padding: 12px 3px 0 3px;
 }
 
 .sheet {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: min-content 1fr 1fr;
+  column-gap: 8px;
   justify-items: stretch;
+  height: 100%;
+}
+
+.left {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.middle, .right {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
 }
