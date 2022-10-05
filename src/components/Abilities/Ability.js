@@ -12,7 +12,9 @@ export default function Ability(props) {
       </div>
       <div className="skills">
         <Skill name="saving throws" save />
-        <Skill name="Animal handling" />
+        {props.skills.map((s, i) => {
+          return <Skill name={s} key={i} />;
+        })}
       </div>
     </div>
   );

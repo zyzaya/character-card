@@ -2,13 +2,13 @@
   display: grid;
   grid-template-columns: min-content min-content 1fr;
   column-gap: 4px;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .save_proficient, .skill_proficient {
   border: 1px solid black;
-  width: 8px;
-  height: 8px
+  width: 6px;
+  height: 6px
 }
 
 .skill_proficient {

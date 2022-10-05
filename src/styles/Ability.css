@@ -3,6 +3,7 @@
   grid-template-columns: min-content min-content;
   column-gap: 8px;
   margin: 15px;
+  border-top: 2px solid black;
 }
 
 .ability_values {
@@ -33,5 +34,5 @@
 }
 
 .skills {
-  padding-top: 6px;
+  padding-top: 4px;
 }
