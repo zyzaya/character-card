@@ -1,0 +1,30 @@
+.skill {
+  display: grid;
+  grid-template-columns: min-content min-content 1fr;
+  column-gap: 4px;
+}
+
+.save_proficient, .skill_proficient {
+  border: 1px solid black;
+  width: 8px;
+  height: 8px
+}
+
+.skill_proficient {
+  border-radius: 4px;
+}
+
+.save_proficient {
+  transform: rotateY(0deg) rotate(45deg);
+}
+
+
+
+.skill_value {
+  border-bottom: 1px solid black;
+  width: 12px;
+}
+
+.skill_name {
+  font-size: 8px;
+}
