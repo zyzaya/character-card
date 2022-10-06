@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/character-card/static/css/main.638412c9.css",
+    "main.js": "/character-card/static/js/main.710f2114.js",
+    "static/js/787.8a2beb66.chunk.js": "/character-card/static/js/787.8a2beb66.chunk.js",
+    "static/media/Interstate-light.ttf": "/character-card/static/media/Interstate-light.be6e1f2fa02e6d1db7ff.ttf",
+    "static/media/Interstate-regular.ttf": "/character-card/static/media/Interstate-regular.c18b0bcdd8070ba76928.ttf",
+    "static/media/Interstate-bold.ttf": "/character-card/static/media/Interstate-bold.e009aa7adc8d80145ca9.ttf",
+    "index.html": "/character-card/index.html",
+    "main.638412c9.css.map": "/character-card/static/css/main.638412c9.css.map",
+    "main.710f2114.js.map": "/character-card/static/js/main.710f2114.js.map",
+    "787.8a2beb66.chunk.js.map": "/character-card/static/js/787.8a2beb66.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.638412c9.css",
+    "static/js/main.710f2114.js"
+  ]
+}
