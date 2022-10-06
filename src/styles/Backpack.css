@@ -1,0 +1,14 @@
+.backpack {
+  margin-top: 1px;
+  background: repeating-linear-gradient(
+    rgb(230, 230, 230),
+    rgb(230, 230, 230) 10px,
+    white 10px,
+    white 20px);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-top: 1px solid black;
+}
+.backpack > div {
+  border-left: 1px solid black;
+}
